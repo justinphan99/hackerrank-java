@@ -6,9 +6,9 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int i = scan.nextInt();
-        Double d = scan.nextDouble();
-        String s = scan.next();
+        int i = Integer.parseInt(scan.nextLine());
+        Double d = Double.parseDouble(scan.nextLine());
+        String s = scan.nextLine();
         scan.close();
 
         System.out.println("String: " + s);
